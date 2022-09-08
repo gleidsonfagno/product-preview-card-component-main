@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.pai{
+    padding-top: 60px;
+}
+
+.principal{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imagens{
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+}
+
+.conteudo-escrito{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.p1{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.p2{
+    font-size: 14px;
+}
+
+.peco{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+canva{
+    color: hsl(158, 36%, 37%);
+}
+
+del{
+    font-size: 14px;
+}
+
+.butao{
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: #fff;
+}
+.butao:hover{
+    background-color: hsl(158, 36%, 27%);
+}
+
+@media (max-width: 500px) {
+    .principal{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .pai{
+        width: 100%;
+        padding: 20px;
+    }
+}
